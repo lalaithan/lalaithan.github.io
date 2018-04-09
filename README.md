@@ -1,7 +1,7 @@
 # lalaithan.github.io
-##Personal Portfolio
+## Personal Portfolio
 
-###To Do
+### To Do
 * [ ] Check .tab .content padding vs. height and width choices.
 * [ ] Check .tabs border-right vs width values.
 * [ ] Review .tab .content h1 selector name.
