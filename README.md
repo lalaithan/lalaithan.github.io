@@ -2,6 +2,5 @@
 ## Personal Portfolio
 
 ### To Do
-* [ ] Fix overlapping of elements
-* [ ] Place relevant social media icons (use CSS transition/transform)
+* [ ] Place relevant social media icons (use CSS transition/transform) in navbar
 * [ ] Place screenshots and links to projects
