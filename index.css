@@ -23,6 +23,32 @@ h2 {
     text-decoration: underline black dotted;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github  {
+    background: transparent;
+}
+
+.fa-twitter {
+    background: transparent;
+    color: #55ACEE;
+}
+
+.fa-linkedin {
+  background: transparent;
+  color: #007bb5;
+}
+
 .information {
     padding: 3em 0 1em 0;
     background-color: #513C66;
@@ -39,6 +65,12 @@ h2 {
     text-align: center;
     position: relative;
     z-index: 1;
+}
+
+.devto  {
+    height: 2em;
+    background-color: white;
+    border-radius: 6px;
 }
 
 footer  {background-color: #513C66;}
