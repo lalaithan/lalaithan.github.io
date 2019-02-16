@@ -2,4 +2,12 @@
 
 Under constant construction.
 
+## Developing
+
+### Built With
+
 Now featuring [welcome.js](https://github.com/stml/welcomejs)
+
+## Licensing
+
+The MIT License - LICENSE.txt
