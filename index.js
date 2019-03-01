@@ -1,11 +1,49 @@
-function myFunction() {
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const NavComponent = React.createClass({
+    render: function () {
+        return (
+            <nav>
+                <div className="navWide">
+                    <div className="wideDiv">
+                        <a href='#'>gh</a>
+                        <a href='#'>lin</a>
+                        <a href='#'>cp</a>
+                    </div>
+                    <div className="navNarrow">
+                        <i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
+                        <div className="narrowLinks">
+                            <a href='#' onClick={this.burgerToggle}>gh</a>
+                            <a href='#' onClick={this.burgerToggle}>lin</a>
+                            <a href='#' onClick={this.burgerToggle}>cp</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        )
+    }
+});
+
+ReactDOM.render(<NavComponent />, document.querySelector('navbar'));
+
+burgerToggle: function() {
+    let linksEl = document.querySelector(.'narrowLinks');
+    if (linksEl.style.display === 'block') {
+        linksEl.style.display = 'none';
+    } else {
+        linksEl.style.display = 'block';
+    }
+}
+
+/* function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
-}
+} */
 
 ! function () {
     if (window.console) {

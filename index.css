@@ -1,5 +1,5 @@
 body {
-    font-family: "Montserrat", Verdana, sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h1 {
@@ -16,6 +16,38 @@ ul {
 
 h2 {
     text-decoration: underline black dotted;
+}
+
+.navWide {
+    display: none;
+}
+
+.navNarrow {
+    i {
+        float: left;
+    }
+
+    .narrowLinks {
+        display: none;
+
+        a {
+            display: block;
+            float: left;
+            clear: left;
+        }
+    }
+}
+
+@media (min-width: 480px) {
+    nav {
+        .navWide {
+            display: block;
+        }
+
+        .navNarrow {
+            display: none;
+        }
+    }
 }
 
 .topnav {
@@ -41,7 +73,6 @@ h2 {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -49,22 +80,6 @@ h2 {
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.fa-github {
-    background: transparent;
-}
-
-.fa-twitter {
-    background: transparent;
-}
-
-.fa-linkedin {
-    background: transparent;
-}
-
-.information {
-    padding: 3em 0 1em 0;
 }
 
 .aboutMe {
