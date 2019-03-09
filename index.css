@@ -1,113 +1,265 @@
-body {
-    font-family: 'Press Start 2P', cursive;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: rgb(27, 26, 89);
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: 900;
+body {
+    background-color: #eee;
+    color: #6c6c6c;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+.tm-container {
+    background-color: white;
+    max-width: 1400px;
+}
+
+.tm-site-title {
+    color: #cc0064;
+    font-size: 3rem;
+}
+
+.tm-site-subtitle {
+    color: #0095bf;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.tm-section-1 {
+    height: 750px;
+    background-image: url(../img/spot-bg-01.jpg);
+    background-size: cover;
+    -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
+    /* background-position: center -95px; */
+    background-repeat: no-repeat;
+    padding-top: 75px;
+}
+
+.tm-section-3 {
+    height: 790px;
+    background-image: url(../img/spot-bg-02.jpg);
+    background-size: cover;
+    -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.tm-color-primary {
+    color: #cc0064;
+}
+
+.tm-color-secondary {
+    color: #0095bf;
+}
+
+.tm-btn-primary {
+    color: white;
+    background-color: #cc0064;
+}
+
+.tm-btn-primary:hover,
+.tm-btn-primary:focus {
+    background-color: #f21b85;
+}
+
+.tm-btn-secondary {
+    color: white;
+    background-color: #0095bf;
+}
+
+.tm-btn-secondary:hover,
+.tm-btn-secondary:focus {
+    background-color: #44cbf1;
+}
+
+.tm-bg-circle-white {
+    background-color: white;
+    color: #6c6c6c;
+    padding: 75px 81px 75px 90px;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+}
+
+.tm-bg-circle-pad-2 {
+    padding-left: 120px;
+}
+
+p,
+ul {
+    line-height: 2;
+    font-weight: 300;
 }
 
 ul {
+    margin: 0;
+}
+
+ul.dashed {
     list-style-type: none;
-    padding-left: 0;
 }
 
-h2 {
-    text-decoration: underline black dotted;
+ul.dashed>li {
+    text-indent: -5px;
 }
 
-.navWide {
-    display: none;
+ul.dashed>li:before {
+    content: "-";
+    margin-right: 5px;
+    text-indent: -5px;
 }
 
-.navNarrow {
-    i {
-        float: left;
-    }
-
-    .narrowLinks {
-        display: none;
-
-        a {
-            display: block;
-            float: left;
-            clear: left;
-        }
-    }
+.btn {
+    padding: 10px 30px;
+    font-size: 1.15rem;
+    font-weight: 300;
+    border-radius: 8px;
 }
 
-@media (min-width: 480px) {
-    nav {
-        .navWide {
-            display: block;
-        }
-
-        .navNarrow {
-            display: none;
-        }
-    }
-}
-
-.topnav {
-    background-color: rgb(53, 51, 119);
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: rgb(129, 128, 178);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.topnav a:hover {
-    background-color: rgba(129, 128, 178, .75);
-    color: rgb(27, 26, 89);
-    border-radius: 50px / 15px;
-}
-
-.fa {
-    padding: 20px;
-    width: 50px;
-    text-align: center;
+a.btn:hover {
+    color: white;
     text-decoration: none;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.tm-flex-center-v {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.aboutMe {
-    background-color: rgb(129, 128, 178);
-    border: 0.5em solid rgb(27, 26, 89);
-    border-radius: 50px / 15px;
-    margin: auto;
-    max-width: 50%;
-    padding: 1em;
-    text-align: center;
-    color: rgb(10, 9, 59);
-    position: relative;
-    z-index: 1;
+.tm-text-container {
+    max-width: 420px;
 }
 
-.devto {
-    height: 1.3em;
-    background-color: transparent;
-    border-radius: 6px;
+.tm-circle-img {
+    width: 550px;
 }
 
-.container {
-    margin: 50px auto;
-    width: 90%;
+.tm-circle-img-container {
+    text-align: right;
 }
 
-header h1 {
-    color: #fff;
-    margin-bottom: 10px;
-    text-align: center;
+.tm-contact-form {
+    max-width: 280px;
+}
+
+.form-control {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #cc0064;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #cc0064;
+    border-width: 2px;
+}
+
+.tm-send-btn {
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.tm-footer-link {
+    color: #6c6c6c;
+}
+
+.tm-footer-link:hover,
+.tm-footer-link:focus {
+    color: #cc0064;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1050px;
+    }
+}
+
+@media (max-width: 992px) {
+    .tm-bg-circle-white {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tm-section-left {
+        margin: 50px auto;
+    }
+
+    .tm-circle-img-container {
+        text-align: center;
+    }
+
+    .tm-contact-form {
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .tm-contact-right {
+        margin-bottom: 50px;
+    }
+
+    .tm-footer-text {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .tm-bg-circle-white {
+        border-radius: 100px;
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .tm-section-1,
+    .tm-section-3 {
+        height: auto;
+    }
+
+    .tm-section-1 {
+        padding-bottom: 90px;
+        -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 92%, 0px 100%);
+        clip-path: polygon(0px 0px, 100% 0px, 100% 92%, 0px 100%);
+    }
+
+    .tm-section-3 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        -webkit-clip-path: polygon(0px 0px, 100% 8%, 100% 92%, 0px 100%);
+        clip-path: polygon(0px 0px, 100% 8%, 100% 92%, 0px 100%);
+    }
+
+    .tm-circle-img-container {
+        margin-bottom: 30px;
+    }
 }
