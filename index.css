@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: underline;
+}
+
 .tm-container {
     background-color: white;
     max-width: 1400px;
@@ -123,7 +127,6 @@ ul.dashed>li:before {
 
 a.btn:hover {
     color: white;
-    text-decoration: none;
 }
 
 .tm-flex-center-v {
@@ -173,7 +176,6 @@ a.btn:hover {
 .tm-footer-link:hover,
 .tm-footer-link:focus {
     color: #cc0064;
-    text-decoration: none;
 }
 
 @media (min-width: 576px) {
