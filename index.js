@@ -21,3 +21,5 @@
     i = 1
   }
 })()
+
+GitHubCalendar(".calendar", "lalaithan", { responsive: true })
