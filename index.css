@@ -3,38 +3,26 @@
   padding: 0;
 }
 
-body {
-  background-color: #eee;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: underline;
-}
-
 .icon-bar {
+background-color: white;
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: center;
   left: 35%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   z-index: 1;
 }
 
 .icon-bar a {
-  display: block;
+color: #8F00FF;
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
-  color: white;
   font-size: 20px;
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: #00b7ff;
 }
 
 .tm-container {
@@ -43,12 +31,12 @@ a {
 }
 
 .tm-site-title {
-  color: #cc0064;
+  color: #FF0052;
   font-size: 3rem;
 }
 
 .tm-site-subtitle {
-  color: #0095bf;
+  color: #00b7ff;
   font-size: 1.2rem;
   margin-bottom: 30px;
 }
@@ -80,7 +68,7 @@ a {
 }
 
 .tm-color-secondary {
-  color: #0095bf;
+  color: #00b7ff;
 }
 
 .tm-btn-primary {
@@ -95,7 +83,7 @@ a {
 
 .tm-btn-secondary {
   color: white;
-  background-color: #0095bf;
+  background-color: #00b7ff;
 }
 
 .tm-btn-secondary:hover,
@@ -105,7 +93,7 @@ a {
 
 .tm-bg-circle-white {
   background-color: white;
-  color: #6c6c6c;
+  color: #152F00;
   padding: 75px 81px 75px 90px;
   border-radius: 50%;
   width: 550px;
@@ -176,28 +164,22 @@ a.btn:hover {
 .form-control {
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #cc0064;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  border-color: #cc0064;
-  border-width: 2px;
 }
 
 .tm-send-btn {
-  border-radius: 5px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
 .tm-footer-link {
-  color: #6c6c6c;
+  color: #8F00FF;
+text-decoration: underline;
 }
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
   color: #cc0064;
+text-decoration: underline;
 }
 
 @media (min-width: 576px) {
