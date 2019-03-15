@@ -4,7 +4,7 @@
 }
 
 .icon-bar {
-background-color: white;
+  background-color: white;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -14,7 +14,7 @@ background-color: white;
 }
 
 .icon-bar a {
-color: #8F00FF;
+  color: #8f00ff;
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
@@ -31,7 +31,7 @@ color: #8F00FF;
 }
 
 .tm-site-title {
-  color: #FF0052;
+  color: #ff0052;
   font-size: 3rem;
 }
 
@@ -47,7 +47,6 @@ color: #8F00FF;
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
-  /* background-position: center -95px; */
   background-repeat: no-repeat;
   padding-top: 75px;
 }
@@ -93,7 +92,7 @@ color: #8F00FF;
 
 .tm-bg-circle-white {
   background-color: white;
-  color: #152F00;
+  color: #152f00;
   padding: 75px 81px 75px 90px;
   border-radius: 50%;
   width: 550px;
@@ -102,30 +101,6 @@ color: #8F00FF;
 
 .tm-bg-circle-pad-2 {
   padding-left: 120px;
-}
-
-p,
-ul {
-  line-height: 2;
-  font-weight: 300;
-}
-
-ul {
-  margin: 0;
-}
-
-ul.dashed {
-  list-style-type: none;
-}
-
-ul.dashed > li {
-  text-indent: -5px;
-}
-
-ul.dashed > li:before {
-  content: "-";
-  margin-right: 5px;
-  text-indent: -5px;
 }
 
 .btn {
@@ -157,29 +132,15 @@ a.btn:hover {
   text-align: right;
 }
 
-.tm-contact-form {
-  max-width: 280px;
-}
-
-.form-control {
-  border-radius: 0;
-  border: none;
-}
-
-.tm-send-btn {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
 .tm-footer-link {
-  color: #8F00FF;
-text-decoration: underline;
+  color: #8f00ff;
+  text-decoration: underline;
 }
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
   color: #cc0064;
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 @media (min-width: 576px) {
