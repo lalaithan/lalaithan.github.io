@@ -15,11 +15,12 @@ html {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
+  padding-left: 1%;
+  padding-right: 1%;
   position: fixed;
   display: block;
   justify-content: center;
   left: 35%;
-  margin: auto;
   z-index: 1;
 }
 
@@ -27,6 +28,7 @@ html {
   box-sizing: border-box;
   color: #8f00ff;
   text-align: center;
+  text-decoration-line: none !important;
   transition: all 0.3s ease;
   font-size: 30px;
 }
@@ -36,6 +38,10 @@ html {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
+}
+
+.fab {
+  display: inherit !important;
 }
 
 .tm-container {
