@@ -22,4 +22,7 @@
   }
 })()
 
-GitHubCalendar(".calendar", "lalaithan", { responsive: true })
+// eslint-disable-next-line no-undef, quotes
+GitHubCalendar(".calendar", "lalaithan", {
+  responsive: true
+})
