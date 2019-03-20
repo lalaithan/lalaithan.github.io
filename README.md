@@ -12,4 +12,4 @@ Now featuring [welcome.js](https://github.com/stml/welcomejs)
 
 ## Licensing
 
-The MIT License - [LICENSE.txt](license.txt)
+The MIT License - [LICENSE.txt](LICENSE.txt)
