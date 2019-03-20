@@ -6,10 +6,10 @@ Under constant construction.
 
 ### Built With
 
-[![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Now featuring [welcome.js](https://github.com/stml/welcomejs)
 
 ## Licensing
 
-The MIT License - LICENSE.txt
+The MIT License - [LICENSE.txt](license.txt)
