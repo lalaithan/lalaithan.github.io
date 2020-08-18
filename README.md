@@ -17,21 +17,21 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents <!-- omit in toc -->
 
-* [About The Project](#about-the-project)
-  * [Built With](#built-with)
-  * [Features](#features)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-  * [Personalize and Customize](#personalize-and-customize)
-    * [_config.yml](#_configyml)
-    * [Github Metadata Plugin](#github-metadata-plugin)
-    * [_data/*.yml](#_datayml)
-    * [Particles.js](#particlesjs)
-* [Contributing](#contributing)
-* [License](#license)
-* [Acknowledgements](#acknowledgements)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+  - [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Personalize and Customize](#personalize-and-customize)
+    - [_config.yml](#_configyml)
+    - [Github Metadata Plugin](#github-metadata-plugin)
+    - [_data/*.yml](#_datayml)
+    - [Particles.js](#particlesjs)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 
