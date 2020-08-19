@@ -1,3 +1,7 @@
+Welcome to the future home of the personal website of Ashley Maria Anderson. Enjoy a cuppa tea while you wait.
+
+---
+
 # Neumorphism <!-- omit in toc -->
 
 > Neumorphism designed Jekyll theme for personal websites, portfolios and resumes.
