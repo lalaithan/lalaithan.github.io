@@ -87,6 +87,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color:#F7E9CD;
+  padding: 10%;
+  margin: auto;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
