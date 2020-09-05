@@ -87,9 +87,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.introtext {
+body {
   display: grid;
-  
+}
+
+.headers {
+  font-size: .5rem;
+}
+
+.introtext {
+  box-sizing: border-box;
+  box-shadow: 10px -10px 5px cyan;
+  margin: 5% 15%;
+  padding: .25em .5em .25em 2em;
 }
 
 /* ==========================================================================
