@@ -89,6 +89,29 @@ textarea {
 
 body {
   display: grid;
+  font-family: 'Alata', sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  background: #222 url(/pexels-lisa-fotios-2575758.jpg);
+  background-size: 50% 200%;
+  background-position: center;
+  background-clip: text;
+  color: rgb(0 0 0 / 0%);
+  font-family: 'Zeyada', cursive;
+  font-size: 15vw;
+  position: relative;
+  text-align: left;
+  margin: 0;
+  line-height: 1.2;
+
+  &::before {
+    content: 'Kylie Thomas';
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+  }
 }
 
 .navbar {
@@ -106,18 +129,34 @@ body {
   padding: 1em 0.5em;
 }
 
-.headers {
-  font-size: .5rem;
-}
-
 .introtext {
   box-sizing: content-box;
   box-shadow: 10px -10px 5px rgb(92, 255, 252);
   position: relative;
+  left: 25%;
 }
-.letta {
-  float: left;
-  position: absolute;
+
+.subtitle {
+  font-size: 7vw;
+  text-align: right;
+  margin: 0 0 1rem 0;
+  color: rgba(255, 26, 163, 1);
+  text-transform: uppercase;
+}
+
+.spin {
+  animation: 0.8s linear 0s spin;
+}
+
+@keyframes spin {
+  from {
+    color: rgba(255, 26, 163, 1);
+    transform: rotateY(90deg);
+  }
+  to {
+    color: rgba(255, 26, 163, 1);
+    transform: rotateY(0deg);
+  }
 }
 
 /* ==========================================================================
