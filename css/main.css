@@ -87,6 +87,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+:root {
+  --turquoise: hsla(176, 72%, 56%, 1);
+  --ming: hsla(189, 27%, 38%, 1);
+  --black-chocolate: hsla(71, 52%, 4%, 1);
+  --blue-violet-color-wheel: hsla(292, 81%, 21%, 1);
+  --magenta-dye: hsla(324, 83%, 45%, 1);
+}
+
 body {
   display: grid;
   font-family: 'Alata', sans-serif;
@@ -129,18 +137,11 @@ h1 {
   padding: 1em 0.5em;
 }
 
-.introtext {
-  box-sizing: content-box;
-  box-shadow: 10px -10px 5px rgb(92, 255, 252);
-  position: relative;
-  left: 25%;
-}
-
 .subtitle {
   font-size: 7vw;
   text-align: right;
   margin: 0 0 1rem 0;
-  color: rgba(255, 26, 163, 1);
+  color: var(--magenta-dye);
   text-transform: uppercase;
 }
 
@@ -150,11 +151,11 @@ h1 {
 
 @keyframes spin {
   from {
-    color: rgba(255, 26, 163, 1);
+    color: var(--magenta-dye);
     transform: rotateY(90deg);
   }
   to {
-    color: rgba(255, 26, 163, 1);
+    color: var(--magenta-dye);
     transform: rotateY(0deg);
   }
 }
