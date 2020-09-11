@@ -23,15 +23,6 @@ html {
   text-shadow: none;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
 audio,
 canvas,
 iframe,
@@ -106,6 +97,16 @@ body {
     color: var(--magenta-dye);
     transform: rotateY(0deg);
   }
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: #ffffff;
+  background: linear-gradient(to right,#ffffff 0%, #000000 50%, #ffffff 100%);
+  background: -webkit-linear-gradient(to right,#ffffff 0%, #000000 50%, #ffffff 100%);
+  background: -moz-linear-gradient(to right,#ffffff 0%, #000000 50%, #ffffff 100%);
+  margin: 0 auto;
 }
 
 /*
