@@ -133,6 +133,15 @@ body {
   margin: 0 auto;
 }
 
+dl {
+  color: var(--blue-violet-color-wheel);
+}
+
+dt {
+  text-shadow: var(--magenta-dye) 1px 0 10px;
+  text-transform: capitalize;
+}
+
 /*
  * Hide visually and from screen readers
  */
